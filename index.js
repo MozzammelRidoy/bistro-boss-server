@@ -11,9 +11,8 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 app.use(express.json());
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-  ],
-  credentials: true,
+    "http://localhost:5173"
+  ]
 }));
 
 //mongoDb Start
