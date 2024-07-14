@@ -10,10 +10,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 //middleware
 app.use(express.json());
 app.use(cors({
-  origin: [
-    "http://localhost:5173"
-  ]
-}));
+  origin: [ "http://localhost:5173", "https://bistro-boss-6a1a5.web.app" ]}));
 
 //mongoDb Start
 
